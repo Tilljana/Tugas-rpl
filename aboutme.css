@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    background-image: url('wall.png'); /* Ganti 'background.jpg' dengan nama gambar latar belakang Anda */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Warna teks diatur menjadi putih agar terlihat baik di atas gambar latar belakang */
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.profil img {
+    border-radius: 15px; /* Menyesuaikan sudut yang melengkung */
+    width: 450px; /* Menyesuaikan ukuran foto */
+    height: 450px;
+    object-fit: cover;
+    border: 2px solid burlywood; /* Menambahkan frame kotak dengan warna tertentu */
+}
+
+.profil h2 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.detail {
+    max-width: 600px;
+}
+
+.sosial-media ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.sosial-media img {
+    width: 40px;
+    height: 40px;
+}
+
+.keahlian,
+.pasangan,
+.hobi,
+.ketertarikan {
+    margin-top: 20px;
+}
+

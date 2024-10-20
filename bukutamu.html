@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tabel.css">
+    <script src="home.js"></script>
+    <title>Helo Welcome guys</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Helo Welcome guys</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="bukutamu.html">Buku Tamu </a></li>
+            <li><a href="Aboutme.html">About me</a></li>
+            <li><a href="wholesome.html">Wholesome </a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1 style="margin-bottom: 1px;">Buku Tamu</h1>
+    </main>
+        <div class="container">
+            <form id="feedbackForm">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required>
+    
+                <label for="alamat">Alamat:</label>
+                <input type="text" id="alamat" name="alamat" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="nomorhp">Nomor HP:</label>
+                <input type="tel" id="nomorhp" name="nomorhp" required>
+    
+                <label for="kritikSaran">Kritik dan Saran:</label>
+                <textarea id="kritikSaran" name="kritikSaran" rows="4" required></textarea>
+    
+                <button type="button" onclick="tambahData()">Kirim</button>
+            </form>
+    
+            <div id="tabelData"></div>
+       
+    <footer>
+        <p>&copy;Taufiqul Umam Uas 2023/2024 </p>
+    </footer>
+
+</body>
+
+</html>

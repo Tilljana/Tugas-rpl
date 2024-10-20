@@ -1,0 +1,21 @@
+main {
+    background-color: #fff; /* Warna latar belakang floating box */
+    max-width: 800px; /* Lebar maksimum floating box */
+    margin: 20px auto; /* Membuat floating box berada di tengah halaman */
+    padding: 20px; /* Ruang dalam floating box */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan pada floating box */
+}
+
+main h2 {
+    color: #3498db; /* Warna teks judul */
+}
+
+main p {
+    line-height: 1.6; /* Jarak antar baris pada paragraf */
+}
+
+/* Optional: Tambahkan efek hover pada floating box */
+main:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+}
